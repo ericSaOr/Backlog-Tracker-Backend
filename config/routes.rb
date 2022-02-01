@@ -6,5 +6,6 @@ Rails.application.routes.draw do
   delete "/logout", to: "sessions#destroy"
   post "/create", to: "users#create"
   post "/games", to: "games#create"
+  post "/gamecards", to: "game_cards#create"
   get "/me", to:  "users#show"
 end
