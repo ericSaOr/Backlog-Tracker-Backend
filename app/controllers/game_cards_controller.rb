@@ -11,7 +11,7 @@ class GameCardsController < ApplicationController
     private
 
     def gamecard_params
-        params.permit(:title, :image, :level_data, :user_id, :game_id )
+        params.permit(:title, :image, :level_data, :note, :user_id, :game_id )
     end
 end
 
